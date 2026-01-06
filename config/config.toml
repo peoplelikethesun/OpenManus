@@ -1,0 +1,19 @@
+# Global LLM configuration
+[llm]
+model ="deepseek-chat"
+base_url = "https://api.deepseek.com"
+api_key = "sk-31cd6b45087c45a28fd152"
+max_tokens =8192
+temperature =0.0
+
+# Optional configuration for specific LLM models
+[llm.vision]
+model = "deepseek-chat"
+base_url = "https://api.deepseek.com"
+api_key = "sk-31cd6b45087c45a28fd152"
+
+
+# Optional configuration, Search settings.
+[search]
+# Search engine for agent to use. Default is "Google", can be set to "Baidu" or "DuckDuckGo".
+engine = "Baidu"
